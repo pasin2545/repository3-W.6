@@ -3,7 +3,7 @@
 int main() {
 	int num;
 	scanf_s("%d", &num);
-	if (num >= 1) {
+	if (num >= 3) {
 		//top
 		for (int i = 0; i < 2 * num; i++) {
 			printf("*");
